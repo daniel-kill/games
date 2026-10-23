@@ -33,6 +33,44 @@ A rich terminal recreation of the legendary 1980 dungeon-crawling classic *The W
 
 ---
 
+### 3. `hunt-the-wumpus.ps1` — Hunt the Wumpus (1973 Classic Cave Deduction)
+
+A complete, standalone PowerShell implementation of Gregory Yob's iconic 1973 text adventure.
+
+#### ✨ Features & Gameplay:
+- **20-Room Dodecahedron Cave:** Interconnected cave graph where each vertex links to exactly 3 neighboring rooms.
+- **Sensory Cues & Deduction:** Track the Wumpus by its foul odor (*"I smell a Wumpus!"*), sense drafty pits (*"I feel a draft!"*), and listen for fluttering wings (*"Bats nearby!"*).
+- **Crooked Arrows:** Shoot crooked arrows bending through up to 5 adjacent rooms to fell the beast before it awakens or charges your room.
+- **Interactive Cave Radar:** Colorized ANSI status panel displaying exits and sensory warnings.
+
+---
+
+### 4. `oregon-trail.ps1` — The Oregon Trail: Frontier Expedition (1848)
+
+A deep frontier resource management and survival simulation spanning 2,040 miles from Independence, Missouri to Oregon's Willamette Valley.
+
+#### ✨ Features & Gameplay:
+- **Expedition Resource Economy:** Manage cash, oxen, food stores, bullets, clothing sets, and spare wagon parts (wheels, axles, tongues).
+- **Dynamic Frontier Encounters:** Navigate swollen rivers (Kansas, Green, Snake, Columbia), trade with native tribes, and handle wagon breakdowns.
+- **Diseases & Attrition:** Survive cholera, typhoid, dysentery, measles, snakebites, and bitter blizzards.
+- **Hunting & Resting:** Hunt for fresh game to restock meat supplies and rest party members to restore vital health.
+
+---
+
+### 5. `battleship.ps1` — Terminal Battleship (Naval Combat Simulation)
+
+A full 10x10 dual-grid naval tactical warfare game pitching you against an intelligent AI fleet.
+
+#### ✨ Features & Gameplay:
+- **Full 5-Vessel Fleet:** Carrier (5), Battleship (4), Cruiser (3), Submarine (3), and Destroyer (2).
+- **Color-Coded ANSI Radar:** Side-by-side display of your defense fleet and enemy tracking radar.
+- **Multi-Tier AI Tactics:**
+  - **Ensign:** Casual random firing.
+  - **Captain:** Hunt-and-target mode with orthogonal adjacent tracking upon hits.
+  - **Admiral:** Advanced parity checkerboard search coupled with vector-lock ship hunting.
+
+---
+
 ## 🚀 Quick Start
 
 Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
@@ -44,8 +82,20 @@ Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
 # Play The Wizard's Castle
 ./The-Wizards-Castle.ps1
 
-# Run automated smoke test for Monopoly
+# Hunt the Wumpus
+./hunt-the-wumpus.ps1
+
+# Embark on The Oregon Trail
+./oregon-trail.ps1
+
+# Engage in Battleship naval combat
+./battleship.ps1
+
+# Automated headless smoke tests
 ./monopoly.ps1 -SmokeTest
+./hunt-the-wumpus.ps1 -SmokeTest
+./oregon-trail.ps1 -SmokeTest
+./battleship.ps1 -SmokeTest
 ```
 
 ---
@@ -55,7 +105,10 @@ Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
 ```text
 ├── monopoly.ps1            # Terminal Monopoly engine & AI opponent logic
 ├── The-Wizards-Castle.ps1  # The Wizard's Castle retro RPG dungeon crawler
-├── .private/               # Architecture & repository memory (ignored)
+├── hunt-the-wumpus.ps1     # Classic 1973 cave deduction game
+├── oregon-trail.ps1        # 1848 frontier pioneer survival simulation
+├── battleship.ps1          # 10x10 tactical naval combat with smart AI
+├── .private/               # Architecture & repository memory (git-ignored)
 ├── .gitignore              # Git ignore definitions
 └── README.md               # Repository overview & manual
 ```
