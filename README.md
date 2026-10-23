@@ -20,22 +20,32 @@ A single-player Monopoly board game simulator running in PowerShell against 1 to
 
 ---
 
+### 2. `The-Wizards-Castle.ps1` — The Wizard's Castle (1980 Classic RPG)
+
+A rich terminal recreation of the legendary 1980 dungeon-crawling classic *The Wizard's Castle* originally created by Joseph R. Power.
+
+#### ✨ Features & Gameplay:
+- **Explore Zot's Labyrinth:** 8 levels of subterranean chambers with 64 rooms per floor (512 rooms total).
+- **Find the Orb of Zot:** Brave lethal monsters (Kobolds, Orcs, Dragons, Gargoyles), discover ancient runic treasures, and escape alive.
+- **Character Races & Customization:** Play as Elf, Dwarf, Human, or Hobbit with custom attributes (Strength, Intelligence, Dexterity).
+- **Tactical Combat & Spells:** Weapon attacks, flares, web spells, fireballs, and warp teleporters.
+- **Map & Save System:** Dynamic automapping and state tracking.
+
+---
+
 ## 🚀 Quick Start
 
 Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
 
 ```powershell
-# Run the game with interactive opponent selection
+# Play Monopoly
 ./monopoly.ps1
 
-# Start directly with 2 CPU opponents
-./monopoly.ps1 -CpuCount 2
+# Play The Wizard's Castle
+./The-Wizards-Castle.ps1
 
-# Run headless automated smoke tests
+# Run automated smoke test for Monopoly
 ./monopoly.ps1 -SmokeTest
-
-# Display full rules & command options
-./monopoly.ps1 -Help
 ```
 
 ---
@@ -43,10 +53,11 @@ Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
 ## 📁 Repository Structure
 
 ```text
-├── monopoly.ps1         # Terminal Monopoly engine & AI opponent logic
-├── .private/            # Architecture & repository memory (ignored)
-├── .gitignore           # Git ignore definitions
-└── README.md            # Repository overview & manual
+├── monopoly.ps1            # Terminal Monopoly engine & AI opponent logic
+├── The-Wizards-Castle.ps1  # The Wizard's Castle retro RPG dungeon crawler
+├── .private/               # Architecture & repository memory (ignored)
+├── .gitignore              # Git ignore definitions
+└── README.md               # Repository overview & manual
 ```
 
 ---
