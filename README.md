@@ -71,6 +71,19 @@ A full 10x10 dual-grid naval tactical warfare game pitching you against an intel
 
 ---
 
+### 6. `draculaland.ps1` — Draculaland: Castle Dracula, 1777 (Adventureland-style)
+
+A Scott Adams *Adventureland*-style text adventure. It is set in the Carpathians in 1777, and the goal is to stake Dracula through the heart before sunset.
+
+#### ✨ Features & Gameplay:
+- **Classic Scott Adams Engine:** Two-word `VERB NOUN` parser that only reads the first three letters of each word, first-person room descriptions, and a carry limit.
+- **Puzzles:** Feed the wolves, repel a vampire bride with a crucifix, break a ward with holy water, find a hidden key, and carve a stake with a dagger.
+- **Dark Rooms & Lamp Oil:** Moving in the dark can kill you, and the lantern burns oil.
+- **Treasures & Score:** Store 5 treasures on holy ground in the chapel for a higher rank.
+- **Sunset Clock:** 300 moves until Dracula wakes. `SAVE`, `LOAD`, `HELP` and `-SmokeTest` are supported.
+
+---
+
 ## 🚀 Quick Start
 
 Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
@@ -91,6 +104,9 @@ Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
 # Engage in Battleship naval combat
 ./battleship.ps1
 
+# Stake Dracula in 1777
+./draculaland.ps1
+
 # Automated headless smoke tests
 ./monopoly.ps1 -SmokeTest
 ./hunt-the-wumpus.ps1 -SmokeTest
@@ -108,6 +124,7 @@ Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
 ├── hunt-the-wumpus.ps1     # Classic 1973 cave deduction game
 ├── oregon-trail.ps1        # 1848 frontier pioneer survival simulation
 ├── battleship.ps1          # 10x10 tactical naval combat with smart AI
+├── draculaland.ps1         # Adventureland-style Dracula text adventure (1777)
 ├── .private/               # Architecture & repository memory (git-ignored)
 ├── .gitignore              # Git ignore definitions
 └── README.md               # Repository overview & manual
