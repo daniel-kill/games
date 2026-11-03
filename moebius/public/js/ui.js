@@ -353,6 +353,7 @@ class MoebiusUI {
     container.style.lineHeight = '1.5';
 
     container.innerHTML = `
+      <p style="color:#eedd44; border: 1px solid #aa8822; padding: 4px 6px; background: rgba(80, 60, 0, 0.3);"><strong>NOTE:</strong> Active work-in-progress conversion. Core exploration, C64 martial arts combat, and meditation systems are operational; advanced quest scripting and palace interiors are in ongoing development.</p>
       <p style="color:#cfa83b;"><strong>OBJECTIVE:</strong> Purify the two defiled shrines in each elemental realm (Earth, Water, Air, Fire) to awaken the Astral Gates. Breach Warlord Kaimen's volcanic lair in the Realm of Fire to reclaim the Orb of Celestial Harmony!</p>
       
       <p><strong>OVERWORLD CONTROLS:</strong><br>

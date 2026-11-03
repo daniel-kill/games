@@ -86,7 +86,22 @@ A Scott Adams *Adventureland*-style text adventure. It is set in the Carpathians
 
 ### 7. `moebius/` & `moebius.ps1` / `moebius.sh` — Moebius: The Orb of Celestial Harmony (1987)
 
-An authentic retro recreation of Origin Systems' iconic 1987 martial arts RPG created by Greg Malone. Built for WSL and modern web browsers with pixel-accurate C64/EGA rendering and 3-voice retro chiptune audio.
+> [!WARNING]
+> **Work-in-Progress / Incomplete Conversion Notice:**
+> This recreation is an **active work-in-progress conversion and reverse-engineering effort** of Origin Systems' 1987 Commodore 64 and MS-DOS release. Core engine subsystems (authentic 64×64 realm matrices, Commodore 64 SID 6581 audio emulation, decoded C64 martial arts animation frames, baseline-aligned combat, and Taoist magic/fasting) are operational, but higher-level quest scripting, full NPC dialogue trees, palace dungeon delving, and endgame celestial recovery sequences remain incomplete. See [`moebius/README.md`](moebius/README.md) for full conversion details.
+
+An authentic retro recreation and reverse-engineering of Origin Systems' iconic 1987 martial arts RPG created by Greg Malone. Built for WSL and modern web browsers with pixel-accurate C64/EGA rendering and 3-voice retro chiptune audio.
+
+#### 🚧 Conversion & Development Status:
+| Component | Status | Details |
+|---|---|---|
+| **Realm Maps (Earth, Water, Air, Fire)** | ✅ Extracted & Playable | 100% authentic 64x64 matrices extracted directly from `*.MTX` disk files. |
+| **Audio & Music Engine** | ✅ Authentic | C64 SID 6581 emulation via `jsSID` playing Joe Garrett's original `c64_moebius.sid` plus 31 synthesized tracks from `PCMUSIC.SLB`. |
+| **Martial Arts Combat Sprites** | ✅ Extracted & Integrated | Authentic C64 RLE-compressed 8x8 character cell frames decoded from `M10.prg` (Windwalker), `M11.prg` (Monk), `M5`/`M6`/`M9`/`M10` (Enemies), dynamically aligned to combat ground baseline. |
+| **Divination & Meditation** | ✅ Playable | Yin-Yang spiritual balance minigame with drift physics and Mind boost. |
+| **Combat Mechanics** | 🟡 Work-in-Progress | Tactical 6-zone strike/block/kick engine active; advanced enemy behavioral AI and multi-enemy encounters are in progress. |
+| **NPC Dialogue & Quest Scripting** | 🟡 Work-in-Progress | Basic interaction modal in place; full binary disk dialogue trees and palace quest objectives are being converted. |
+| **Palace Dungeons & End-Game** | ⏳ Planned / Incomplete | Palace maze exploration and Celestial Orb recovery sequences are pending full reverse-engineering. |
 
 #### ✨ Features & Gameplay:
 - **Four Elemental Realms:** Explore the authentic 64x64 matrices of Earth, Water, Air, and Fire extracted directly from the original game disk images (`EARTH.MTX`, `WATER.MTX`, `AIR.MTX`, `FIRE.MTX`).
