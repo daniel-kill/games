@@ -194,12 +194,31 @@ runTest('Verify authentic C64 screens and martial arts sprite frames', () => {
   const windwalkerDir = path.join(__dirname, 'public/assets/c64_sprites/windwalker');
   assert.ok(fs.existsSync(windwalkerDir), 'windwalker c64 sprites directory exists');
   const wwFrames = fs.readdirSync(windwalkerDir);
-  assert.ok(wwFrames.length >= 80, `Windwalker has 80+ authentic C64 animation frames (actual: ${wwFrames.length})`);
+  assert.ok(wwFrames.length >= 20, `Windwalker has authentic C64 animation frames (actual: ${wwFrames.length})`);
+  assert.ok(fs.existsSync(path.join(windwalkerDir, 'windwalker_idle_0.png')), 'windwalker_idle_0.png exists');
+  assert.ok(fs.existsSync(path.join(windwalkerDir, 'windwalker_punch_high.png')), 'windwalker_punch_high.png exists');
+  assert.ok(fs.existsSync(path.join(windwalkerDir, 'windwalker_kick_high.png')), 'windwalker_kick_high.png exists');
+  assert.ok(fs.existsSync(path.join(windwalkerDir, 'windwalker_fall.png')), 'windwalker_fall.png exists');
 
   const monkDir = path.join(__dirname, 'public/assets/c64_sprites/monk');
   assert.ok(fs.existsSync(monkDir), 'monk c64 sprites directory exists');
   const monkFrames = fs.readdirSync(monkDir);
-  assert.ok(monkFrames.length >= 60, `Monk has 60+ authentic C64 animation frames (actual: ${monkFrames.length})`);
+  assert.ok(monkFrames.length >= 14, `Monk has authentic C64 animation frames (actual: ${monkFrames.length})`);
+  assert.ok(fs.existsSync(path.join(monkDir, 'monk_idle_0.png')), 'monk_idle_0.png exists');
+  assert.ok(fs.existsSync(path.join(monkDir, 'monk_punch.png')), 'monk_punch.png exists');
+  assert.ok(fs.existsSync(path.join(monkDir, 'monk_fall.png')), 'monk_fall.png exists');
+
+  const enemiesDir = path.join(__dirname, 'public/assets/c64_sprites/enemies_m5');
+  assert.ok(fs.existsSync(enemiesDir), 'enemies c64 sprites directory exists');
+  assert.ok(fs.existsSync(path.join(enemiesDir, 'enemy_ninja.png')), 'enemy_ninja.png exists');
+  assert.ok(fs.existsSync(path.join(enemiesDir, 'enemy_guard.png')), 'enemy_guard.png exists');
+  assert.ok(fs.existsSync(path.join(enemiesDir, 'enemy_spearman.png')), 'enemy_spearman.png exists');
+
+  const portraitsDir = path.join(__dirname, 'public/assets/c64_sprites/portraits');
+  assert.ok(fs.existsSync(portraitsDir), 'portraits c64 sprites directory exists');
+  assert.ok(fs.existsSync(path.join(portraitsDir, 'portrait_monk.png')), 'portrait_monk.png exists');
+  assert.ok(fs.existsSync(path.join(portraitsDir, 'portrait_priest.png')), 'portrait_priest.png exists');
+  assert.ok(fs.existsSync(path.join(portraitsDir, 'portrait_death.png')), 'portrait_death.png exists');
 });
 
 console.log('====================================================');

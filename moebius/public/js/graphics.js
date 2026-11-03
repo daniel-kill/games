@@ -80,20 +80,27 @@ class MoebiusGraphics {
       img.onload = () => { this.sprites[sc.key] = img; };
     });
 
-    // Authentic Commodore 64 Windwalker Martial Arts Animation Frames
+        // Authentic Commodore 64 Windwalker Martial Arts Animation Frames
     const c64PlayerMoves = [
-      { key: 'windwalker_idle_0', src: 'assets/c64_sprites/windwalker/frame_00.png' },
-      { key: 'windwalker_idle_1', src: 'assets/c64_sprites/windwalker/frame_01.png' },
-      { key: 'windwalker_punch_high', src: 'assets/c64_sprites/windwalker/frame_08.png' },
-      { key: 'windwalker_punch_mid', src: 'assets/c64_sprites/windwalker/frame_10.png' },
-      { key: 'windwalker_punch_low', src: 'assets/c64_sprites/windwalker/frame_14.png' },
-      { key: 'windwalker_kick_high', src: 'assets/c64_sprites/windwalker/frame_16.png' },
-      { key: 'windwalker_kick_mid', src: 'assets/c64_sprites/windwalker/frame_18.png' },
-      { key: 'windwalker_kick_low', src: 'assets/c64_sprites/windwalker/frame_20.png' },
-      { key: 'windwalker_block', src: 'assets/c64_sprites/windwalker/frame_26.png' },
-      { key: 'windwalker_swing', src: 'assets/c64_sprites/windwalker/frame_38.png' },
-      { key: 'windwalker_hit', src: 'assets/c64_sprites/windwalker/frame_52.png' },
-      { key: 'windwalker_fall', src: 'assets/c64_sprites/windwalker/frame_68.png' }
+      { key: 'windwalker_idle_0', src: 'assets/c64_sprites/windwalker/windwalker_idle_0.png' },
+      { key: 'windwalker_idle_1', src: 'assets/c64_sprites/windwalker/windwalker_idle_1.png' },
+      { key: 'windwalker_step', src: 'assets/c64_sprites/windwalker/windwalker_step.png' },
+      { key: 'windwalker_ready', src: 'assets/c64_sprites/windwalker/windwalker_ready.png' },
+      { key: 'windwalker_punch_high', src: 'assets/c64_sprites/windwalker/windwalker_punch_high.png' },
+      { key: 'windwalker_punch_mid', src: 'assets/c64_sprites/windwalker/windwalker_punch_mid.png' },
+      { key: 'windwalker_punch_low', src: 'assets/c64_sprites/windwalker/windwalker_punch_low.png' },
+      { key: 'windwalker_kick_high', src: 'assets/c64_sprites/windwalker/windwalker_kick_high.png' },
+      { key: 'windwalker_kick_mid', src: 'assets/c64_sprites/windwalker/windwalker_kick_mid.png' },
+      { key: 'windwalker_kick_low', src: 'assets/c64_sprites/windwalker/windwalker_kick_low.png' },
+      { key: 'windwalker_flying_kick', src: 'assets/c64_sprites/windwalker/windwalker_flying_kick.png' },
+      { key: 'windwalker_block', src: 'assets/c64_sprites/windwalker/windwalker_block.png' },
+      { key: 'windwalker_crouch_block', src: 'assets/c64_sprites/windwalker/windwalker_crouch_block.png' },
+      { key: 'windwalker_swing', src: 'assets/c64_sprites/windwalker/windwalker_swing.png' },
+      { key: 'windwalker_chop', src: 'assets/c64_sprites/windwalker/windwalker_chop.png' },
+      { key: 'windwalker_hit', src: 'assets/c64_sprites/windwalker/windwalker_hit.png' },
+      { key: 'windwalker_stagger', src: 'assets/c64_sprites/windwalker/windwalker_stagger.png' },
+      { key: 'windwalker_knockdown', src: 'assets/c64_sprites/windwalker/windwalker_knockdown.png' },
+      { key: 'windwalker_fall', src: 'assets/c64_sprites/windwalker/windwalker_fall.png' }
     ];
     c64PlayerMoves.forEach(mv => {
       const img = new Image();
@@ -103,14 +110,20 @@ class MoebiusGraphics {
 
     // Authentic Commodore 64 Sparring Monk / Opponent Animation Frames
     const c64MonkMoves = [
-      { key: 'monk_idle_0', src: 'assets/c64_sprites/monk/frame_00.png' },
-      { key: 'monk_idle_1', src: 'assets/c64_sprites/monk/frame_01.png' },
-      { key: 'monk_punch', src: 'assets/c64_sprites/monk/frame_08.png' },
-      { key: 'monk_kick', src: 'assets/c64_sprites/monk/frame_16.png' },
-      { key: 'monk_block', src: 'assets/c64_sprites/monk/frame_26.png' },
-      { key: 'monk_swing', src: 'assets/c64_sprites/monk/frame_38.png' },
-      { key: 'monk_hit', src: 'assets/c64_sprites/monk/frame_52.png' },
-      { key: 'monk_fall', src: 'assets/c64_sprites/monk/frame_68.png' }
+      { key: 'monk_idle_0', src: 'assets/c64_sprites/monk/monk_idle_0.png' },
+      { key: 'monk_idle_1', src: 'assets/c64_sprites/monk/monk_idle_1.png' },
+      { key: 'monk_step', src: 'assets/c64_sprites/monk/monk_step.png' },
+      { key: 'monk_guard_high', src: 'assets/c64_sprites/monk/monk_guard_high.png' },
+      { key: 'monk_guard_mid', src: 'assets/c64_sprites/monk/monk_guard_mid.png' },
+      { key: 'monk_block', src: 'assets/c64_sprites/monk/monk_block.png' },
+      { key: 'monk_swing', src: 'assets/c64_sprites/monk/monk_swing.png' },
+      { key: 'monk_punch', src: 'assets/c64_sprites/monk/monk_punch.png' },
+      { key: 'monk_kick', src: 'assets/c64_sprites/monk/monk_kick.png' },
+      { key: 'monk_thrust_low', src: 'assets/c64_sprites/monk/monk_thrust_low.png' },
+      { key: 'monk_hit', src: 'assets/c64_sprites/monk/monk_hit.png' },
+      { key: 'monk_stagger', src: 'assets/c64_sprites/monk/monk_stagger.png' },
+      { key: 'monk_knockdown', src: 'assets/c64_sprites/monk/monk_knockdown.png' },
+      { key: 'monk_fall', src: 'assets/c64_sprites/monk/monk_fall.png' }
     ];
     c64MonkMoves.forEach(mv => {
       const img = new Image();
@@ -120,14 +133,39 @@ class MoebiusGraphics {
 
     // Authentic Commodore 64 Enemies
     const c64Enemies = [
-      { key: 'enemy_ninja', src: 'assets/c64_sprites/enemies_m5/frame_00.png' },
-      { key: 'enemy_guard', src: 'assets/c64_sprites/enemies_m5/frame_24.png' },
-      { key: 'enemy_tiger', src: 'assets/c64_sprites/enemies_m5/frame_40.png' }
+      { key: 'enemy_ninja', src: 'assets/c64_sprites/enemies_m5/enemy_ninja.png' },
+      { key: 'enemy_ninja_0', src: 'assets/c64_sprites/enemies_m5/enemy_ninja_0.png' },
+      { key: 'enemy_ninja_1', src: 'assets/c64_sprites/enemies_m5/enemy_ninja_1.png' },
+      { key: 'enemy_ninja_punch', src: 'assets/c64_sprites/enemies_m5/enemy_ninja_punch.png' },
+      { key: 'enemy_ninja_kick', src: 'assets/c64_sprites/enemies_m5/enemy_ninja_kick.png' },
+      { key: 'enemy_ninja_block', src: 'assets/c64_sprites/enemies_m5/enemy_ninja_block.png' },
+      { key: 'enemy_ninja_hit', src: 'assets/c64_sprites/enemies_m5/enemy_ninja_hit.png' },
+      { key: 'enemy_ninja_fall', src: 'assets/c64_sprites/enemies_m5/enemy_ninja_fall.png' },
+      { key: 'enemy_ninja_sword', src: 'assets/c64_sprites/enemies_m5/enemy_ninja_sword.png' },
+      { key: 'enemy_guard', src: 'assets/c64_sprites/enemies_m5/enemy_guard.png' },
+      { key: 'enemy_guard_slash', src: 'assets/c64_sprites/enemies_m5/enemy_guard_slash.png' },
+      { key: 'enemy_spearman', src: 'assets/c64_sprites/enemies_m5/enemy_spearman.png' },
+      { key: 'enemy_tiger', src: 'assets/sprites/tile_tiger.png' }
     ];
     c64Enemies.forEach(en => {
       const img = new Image();
       img.src = en.src;
       img.onload = () => { this.sprites[en.key] = img; };
+    });
+
+    // Authentic Commodore 64 Character Portraits
+    const c64Portraits = [
+      { key: 'portrait_monk', src: 'assets/c64_sprites/portraits/portrait_monk.png' },
+      { key: 'portrait_priest', src: 'assets/c64_sprites/portraits/portrait_priest.png' },
+      { key: 'portrait_disciple', src: 'assets/c64_sprites/portraits/portrait_disciple.png' },
+      { key: 'portrait_meditating', src: 'assets/c64_sprites/portraits/portrait_meditating.png' },
+      { key: 'portrait_death', src: 'assets/c64_sprites/portraits/portrait_death.png' },
+      { key: 'portrait_demon', src: 'assets/c64_sprites/portraits/portrait_demon.png' }
+    ];
+    c64Portraits.forEach(po => {
+      const img = new Image();
+      img.src = po.src;
+      img.onload = () => { this.sprites[po.key] = img; };
     });
   }
 
@@ -556,23 +594,30 @@ class MoebiusGraphics {
       frame = (Math.floor(this.animTimer / 15) % 2 === 0) ? this.sprites['windwalker_idle_0'] : this.sprites['windwalker_idle_1'];
     }
 
-    if (frame) {
+    if (frame && (frame.complete || frame.width > 0)) {
+      const fw = frame.naturalWidth || frame.width || 48;
+      const fh = frame.naturalHeight || frame.height || 64;
+      const groundY = 132;
+      const centerX = p.x + 24;
+      const drawX = Math.round(centerX - fw / 2);
+      const drawY = groundY - fh;
+
       this.ctx.save();
-      // Ground shadow
+      // Ground shadow under fighter feet
       this.ctx.fillStyle = 'rgba(0, 0, 0, 0.45)';
       this.ctx.beginPath();
-      this.ctx.ellipse(x + 24, 130, 16, 5, 0, 0, Math.PI * 2);
+      this.ctx.ellipse(centerX, groundY - 2, Math.max(16, Math.round(fw / 2.5)), 5, 0, 0, Math.PI * 2);
       this.ctx.fill();
 
-      // Render 48x42 Authentic C64 Sprite
-      this.ctx.drawImage(frame, x, y, 48, 42);
+      // Render 1:1 Authentic C64 Sprite aligned to ground baseline
+      this.ctx.drawImage(frame, drawX, drawY);
 
-      // Katana overlay if sword equipped
-      if (isSword && p.action !== 'SWING') {
+      // Katana overlay if sword equipped and not fallen
+      if (isSword && p.action !== 'SWING' && p.action !== 'FALL') {
         this.ctx.fillStyle = pal[15];
-        this.ctx.fillRect(x + 36, y + 10, 2, 22);
+        this.ctx.fillRect(drawX + fw - 4, drawY + 14, 2, 24);
         this.ctx.fillStyle = pal[7];
-        this.ctx.fillRect(x + 34, y + 24, 6, 2);
+        this.ctx.fillRect(drawX + fw - 6, drawY + 28, 6, 2);
       }
       this.ctx.restore();
       return;
@@ -656,16 +701,24 @@ class MoebiusGraphics {
 
   drawCombatOpponent(opp) {
     const pal = this.palette;
-    const x = opp.x;
-    const y = 88;
-
     let frame = null;
+
     if (opp.type === 'tiger') {
       frame = this.sprites['enemy_tiger'] || this.sprites['tile_tiger'];
     } else if (opp.type === 'ninja') {
-      frame = this.sprites['enemy_ninja'];
+      if (opp.action === 'BLOCK') frame = this.sprites['enemy_ninja_block'] || this.sprites['enemy_ninja'];
+      else if (opp.action === 'STRIKE' || opp.action === 'PUNCH') frame = this.sprites['enemy_ninja_punch'] || this.sprites['enemy_ninja'];
+      else if (opp.action === 'KICK') frame = this.sprites['enemy_ninja_kick'] || this.sprites['enemy_ninja'];
+      else if (opp.action === 'HIT') frame = this.sprites['enemy_ninja_hit'] || this.sprites['enemy_ninja'];
+      else if (opp.action === 'FALL') frame = this.sprites['enemy_ninja_fall'] || this.sprites['enemy_ninja'];
+      else {
+        frame = (Math.floor(this.animTimer / 15) % 2 === 0) ? this.sprites['enemy_ninja_0'] : this.sprites['enemy_ninja_1'];
+        if (!frame) frame = this.sprites['enemy_ninja'];
+      }
     } else if (opp.type === 'guard') {
-      frame = this.sprites['enemy_guard'];
+      frame = (opp.action === 'STRIKE' || opp.action === 'SWING') ? (this.sprites['enemy_guard_slash'] || this.sprites['enemy_guard']) : this.sprites['enemy_guard'];
+    } else if (opp.type === 'spearman') {
+      frame = this.sprites['enemy_spearman'];
     } else {
       // Sparring monk / martial artist opponent
       if (opp.action === 'BLOCK') frame = this.sprites['monk_block'];
@@ -679,18 +732,24 @@ class MoebiusGraphics {
       }
     }
 
-    if (frame) {
+    if (frame && (frame.complete || frame.width > 0)) {
+      const fw = frame.naturalWidth || frame.width || 48;
+      const fh = frame.naturalHeight || frame.height || 64;
+      const groundY = 132;
+      const centerX = opp.x + 24;
+      const drawY = groundY - fh;
+
       this.ctx.save();
       // Ground shadow
       this.ctx.fillStyle = 'rgba(0, 0, 0, 0.45)';
       this.ctx.beginPath();
-      this.ctx.ellipse(x + 24, 130, 16, 5, 0, 0, Math.PI * 2);
+      this.ctx.ellipse(centerX, groundY - 2, Math.max(16, Math.round(fw / 2.5)), 5, 0, 0, Math.PI * 2);
       this.ctx.fill();
 
       // Render flipped horizontally so opponent faces left toward player
-      this.ctx.translate(x + 48, y);
+      this.ctx.translate(centerX, drawY);
       this.ctx.scale(-1, 1);
-      this.ctx.drawImage(frame, 0, 0, 48, 42);
+      this.ctx.drawImage(frame, -Math.round(fw / 2), 0);
       this.ctx.restore();
       return;
     }
