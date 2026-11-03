@@ -1,0 +1,3156 @@
+[
+  {
+    "id": 0,
+    "name": "Theme Fanfare",
+    "events": [
+      {
+        "type": "note",
+        "midi": 8,
+        "freq": 12.98,
+        "duration": 1680
+      },
+      {
+        "type": "note",
+        "midi": 8,
+        "freq": 12.98,
+        "duration": 3180
+      },
+      {
+        "type": "note",
+        "midi": 8,
+        "freq": 12.98,
+        "duration": 4860
+      },
+      {
+        "type": "note",
+        "midi": 8,
+        "freq": 12.98,
+        "duration": 7320
+      },
+      {
+        "type": "note",
+        "midi": 9,
+        "freq": 13.75,
+        "duration": 600
+      },
+      {
+        "type": "note",
+        "midi": 9,
+        "freq": 13.75,
+        "duration": 4380
+      },
+      {
+        "type": "note",
+        "midi": 9,
+        "freq": 13.75,
+        "duration": 5520
+      },
+      {
+        "type": "note",
+        "midi": 9,
+        "freq": 13.75,
+        "duration": 6960
+      },
+      {
+        "type": "note",
+        "midi": 10,
+        "freq": 14.57,
+        "duration": 1140
+      },
+      {
+        "type": "note",
+        "midi": 10,
+        "freq": 14.57,
+        "duration": 2640
+      },
+      {
+        "type": "note",
+        "midi": 50,
+        "freq": 146.83,
+        "duration": 40
+      },
+      {
+        "type": "note",
+        "midi": 127,
+        "freq": 12543.85,
+        "duration": 40
+      },
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 1320
+      },
+      {
+        "type": "rest",
+        "duration": 1920
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 67,
+        "freq": 392.0,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 30
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "House of Moebius",
+    "events": [
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 2040
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Shrine Cleansed",
+    "events": [
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Meditation Chime",
+    "events": [
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Divination Success",
+    "events": [
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Defeat Lament",
+    "events": [
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Astral Gate",
+    "events": [
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Combat Stride",
+    "events": [
+      {
+        "type": "rest",
+        "duration": 60
+      },
+      {
+        "type": "rest",
+        "duration": 60
+      },
+      {
+        "type": "rest",
+        "duration": 2040
+      },
+      {
+        "type": "rest",
+        "duration": 1920
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 67,
+        "freq": 392.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 67,
+        "freq": 392.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 67,
+        "freq": 392.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 91,
+        "freq": 1567.98,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 2520
+      },
+      {
+        "type": "note",
+        "midi": 91,
+        "freq": 1567.98,
+        "duration": 2220
+      },
+      {
+        "type": "note",
+        "midi": 91,
+        "freq": 1567.98,
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Combat Clash",
+    "events": [
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 60
+      },
+      {
+        "type": "rest",
+        "duration": 60
+      },
+      {
+        "type": "rest",
+        "duration": 1560
+      },
+      {
+        "type": "rest",
+        "duration": 1920
+      },
+      {
+        "type": "note",
+        "midi": 89,
+        "freq": 1396.91,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 86,
+        "freq": 1174.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 67,
+        "freq": 392.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 65,
+        "freq": 349.23,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 62,
+        "freq": 293.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 55,
+        "freq": 196.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 53,
+        "freq": 174.61,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 2040
+      },
+      {
+        "type": "note",
+        "midi": 52,
+        "freq": 164.81,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 50,
+        "freq": 146.83,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 48,
+        "freq": 130.81,
+        "duration": 2010
+      },
+      {
+        "type": "note",
+        "midi": 48,
+        "freq": 130.81,
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Fireball Whoosh",
+    "events": [
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 75,
+        "freq": 622.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 60
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 1530
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 300
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Waterwalk Hymn",
+    "events": [
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 40
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 1980
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 330
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 60
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 60
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 2040
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 1980
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 330
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 1980
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 330
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 40
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Spirits Speak",
+    "events": [
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 1050
+      },
+      {
+        "type": "rest",
+        "duration": 1920
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 67,
+        "freq": 392.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 300
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 300
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 62,
+        "freq": 293.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 78,
+        "freq": 739.99,
+        "duration": 300
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 62,
+        "freq": 293.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 300
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 80,
+        "freq": 830.61,
+        "duration": 300
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 73,
+        "freq": 554.37,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 2220
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 2010
+      },
+      {
+        "type": "rest",
+        "duration": 1290
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 1950
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Holy Blessing",
+    "events": [
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Warlord Encounter",
+    "events": [
+      {
+        "type": "note",
+        "midi": 102,
+        "freq": 2959.96,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 66,
+        "freq": 369.99,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 103,
+        "freq": 3135.96,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 67,
+        "freq": 392.0,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 104,
+        "freq": 3322.44,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 68,
+        "freq": 415.3,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 105,
+        "freq": 3520.0,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 106,
+        "freq": 3729.31,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 70,
+        "freq": 466.16,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 107,
+        "freq": 3951.07,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 108,
+        "freq": 4186.01,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 109,
+        "freq": 4434.92,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 73,
+        "freq": 554.37,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 110,
+        "freq": 4698.64,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 110,
+        "freq": 4698.64,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 75,
+        "freq": 622.25,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 112,
+        "freq": 5274.04,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 113,
+        "freq": 5587.65,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 114,
+        "freq": 5919.91,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 78,
+        "freq": 739.99,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 115,
+        "freq": 6271.93,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 116,
+        "freq": 6644.88,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 80,
+        "freq": 830.61,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 117,
+        "freq": 7040.0,
+        "duration": 150
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Victory Anthem",
+    "events": [
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 118,
+        "freq": 7458.62,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 119,
+        "freq": 7902.13,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 150
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Night Descent",
+    "events": [
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Minstrel Song",
+    "events": [
+      {
+        "type": "rest",
+        "duration": 1050
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 2280
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Temple Bell",
+    "events": [
+      {
+        "type": "note",
+        "midi": 45,
+        "freq": 110.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 540
+      },
+      {
+        "type": "note",
+        "midi": 50,
+        "freq": 146.83,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 62,
+        "freq": 293.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 86,
+        "freq": 1174.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 52,
+        "freq": 164.81,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 93,
+        "freq": 1760.0,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 2490
+      },
+      {
+        "type": "note",
+        "midi": 45,
+        "freq": 110.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 50,
+        "freq": 146.83,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 62,
+        "freq": 293.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 86,
+        "freq": 1174.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 52,
+        "freq": 164.81,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Karma Chime",
+    "events": [
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 93,
+        "freq": 1760.0,
+        "duration": 60
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Step of Initiation",
+    "events": [
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 300
+      },
+      {
+        "type": "rest",
+        "duration": 1920
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 86,
+        "freq": 1174.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Orb Recovered",
+    "events": [
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 60
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 2040
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 89,
+        "freq": 1396.91,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 2010
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 87,
+        "freq": 1244.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 86,
+        "freq": 1174.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 1530
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 77,
+        "freq": 698.46,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 2250
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 60
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Track 22",
+    "events": [
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 780
+      },
+      {
+        "type": "rest",
+        "duration": 1920
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 78,
+        "freq": 739.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 78,
+        "freq": 739.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 79,
+        "freq": 783.99,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 81,
+        "freq": 880.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 82,
+        "freq": 932.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Track 23",
+    "events": [
+      {
+        "type": "rest",
+        "duration": 2010
+      },
+      {
+        "type": "note",
+        "midi": 85,
+        "freq": 1108.73,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 86,
+        "freq": 1174.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 85,
+        "freq": 1108.73,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 86,
+        "freq": 1174.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 87,
+        "freq": 1244.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 87,
+        "freq": 1244.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 87,
+        "freq": 1244.51,
+        "duration": 40
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Track 24",
+    "events": [
+      {
+        "type": "note",
+        "midi": 52,
+        "freq": 164.81,
+        "duration": 360
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 74,
+        "freq": 587.33,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Track 25",
+    "events": [
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 810
+      },
+      {
+        "type": "note",
+        "midi": 48,
+        "freq": 130.81,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 52,
+        "freq": 164.81,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 56,
+        "freq": 207.65,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 1920
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 68,
+        "freq": 415.3,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Track 26",
+    "events": [
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 80,
+        "freq": 830.61,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 92,
+        "freq": 1661.22,
+        "duration": 2040
+      },
+      {
+        "type": "note",
+        "midi": 92,
+        "freq": 1661.22,
+        "duration": 330
+      },
+      {
+        "type": "note",
+        "midi": 88,
+        "freq": 1318.51,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 80,
+        "freq": 830.61,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 72,
+        "freq": 523.25,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 68,
+        "freq": 415.3,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 54,
+        "freq": 185.0,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 1050
+      },
+      {
+        "type": "note",
+        "midi": 52,
+        "freq": 164.81,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 48,
+        "freq": 130.81,
+        "duration": 2250
+      },
+      {
+        "type": "note",
+        "midi": 48,
+        "freq": 130.81,
+        "duration": 60
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Track 27",
+    "events": [
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 65,
+        "freq": 349.23,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 60
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 70,
+        "freq": 466.16,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 65,
+        "freq": 349.23,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 62,
+        "freq": 293.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 65,
+        "freq": 349.23,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 70,
+        "freq": 466.16,
+        "duration": 120
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Track 28",
+    "events": [
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 65,
+        "freq": 349.23,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 62,
+        "freq": 293.66,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 65,
+        "freq": 349.23,
+        "duration": 60
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 65,
+        "freq": 349.23,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 57,
+        "freq": 220.0,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 64,
+        "freq": 329.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 65,
+        "freq": 349.23,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 69,
+        "freq": 440.0,
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Track 29",
+    "events": [
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 20
+      },
+      {
+        "type": "rest",
+        "duration": 1050
+      },
+      {
+        "type": "rest",
+        "duration": 1920
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 60,
+        "freq": 261.63,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 2040
+      },
+      {
+        "type": "note",
+        "midi": 71,
+        "freq": 493.88,
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Track 30",
+    "events": [
+      {
+        "type": "note",
+        "midi": 65,
+        "freq": 349.23,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 120
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 2040
+      },
+      {
+        "type": "note",
+        "midi": 76,
+        "freq": 659.26,
+        "duration": 90
+      },
+      {
+        "type": "rest",
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Track 31",
+    "events": [
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 84,
+        "freq": 1046.5,
+        "duration": 150
+      },
+      {
+        "type": "note",
+        "midi": 83,
+        "freq": 987.77,
+        "duration": 120
+      },
+      {
+        "type": "rest",
+        "duration": 150
+      },
+      {
+        "type": "rest",
+        "duration": 150
+      }
+    ]
+  }
+]

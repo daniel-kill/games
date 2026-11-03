@@ -1,0 +1,20 @@
+{
+  "name": "moebius-celestial-harmony",
+  "version": "1.0.0",
+  "description": "Authentic retro recreation of Moebius: The Orb of Celestial Harmony (1987)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "moebius",
+    "retro",
+    "c64",
+    "dos",
+    "rpg",
+    "martial-arts"
+  ],
+  "author": "Daniel Kill & Antigravity",
+  "license": "MIT"
+}

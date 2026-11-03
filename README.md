@@ -84,6 +84,21 @@ A Scott Adams *Adventureland*-style text adventure. It is set in the Carpathians
 
 ---
 
+### 7. `moebius/` & `moebius.ps1` / `moebius.sh` — Moebius: The Orb of Celestial Harmony (1987)
+
+An authentic retro recreation of Origin Systems' iconic 1987 martial arts RPG created by Greg Malone. Built for WSL and modern web browsers with pixel-accurate C64/EGA rendering and 3-voice retro chiptune audio.
+
+#### ✨ Features & Gameplay:
+- **Four Elemental Realms:** Explore the authentic 64x64 matrices of Earth, Water, Air, and Fire extracted directly from the original game disk images (`EARTH.MTX`, `WATER.MTX`, `AIR.MTX`, `FIRE.MTX`).
+- **Tactical Side-View Combat:** 1-on-1 martial arts and sword duels with 6 strike zones (High/Mid/Low Kick, Punch, or Swing), blocking, stride/step footwork, fatigue management, and shuriken throwing.
+- **Divination Minigame:** Keep the restless Yin-Yang spirit centered against cosmic winds using meditation to gain prophecy visions and boost Mind energy.
+- **Taoist Karma & Fasting Magic:** 5 Fasting prayers (Speak with Dead, Protection, Waterwalk, Cure Sickness, Guiding Light) and 6 component charms (Ventriloquism, Paralysis, Teleport, Invisibility, Spirit Walk, Were-Spell).
+- **Original Music & Sound Effects:** Synthesizes the 31 chiptune tracks extracted from `PCMUSIC.SLB` and authentic SID/PSG chiptune sound effects via Web Audio API.
+- **Retro Visual Engine:** 320x200 pixel resolution with CRT scanline toggles, C64 and DOS EGA color palettes, authentic bamboo borders, and extracted original character sprites.
+- **Cross-Platform Launchers:** Launch in WSL via `./moebius.sh` or in PowerShell via `./moebius.ps1` (with `-SmokeTest` / `--test` automated verification).
+
+---
+
 ## 🚀 Quick Start
 
 Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
@@ -107,11 +122,17 @@ Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
 # Stake Dracula in 1777
 ./draculaland.ps1
 
+# Launch Moebius (Web & Retro UI)
+./moebius.ps1
+# or in WSL:
+./moebius.sh
+
 # Automated headless smoke tests
 ./monopoly.ps1 -SmokeTest
 ./hunt-the-wumpus.ps1 -SmokeTest
 ./oregon-trail.ps1 -SmokeTest
 ./battleship.ps1 -SmokeTest
+./moebius.ps1 -SmokeTest
 ```
 
 ---
@@ -125,6 +146,17 @@ Ensure PowerShell 7 (`pwsh`) or Windows PowerShell is installed.
 ├── oregon-trail.ps1        # 1848 frontier pioneer survival simulation
 ├── battleship.ps1          # 10x10 tactical naval combat with smart AI
 ├── draculaland.ps1         # Adventureland-style Dracula text adventure (1777)
+├── moebius.ps1             # Moebius PowerShell cross-platform launcher
+├── moebius.sh              # Moebius WSL bash launcher
+├── moebius/                # Moebius retro web game engine & assets
+│   ├── server.js           # Node.js HTTP server & REST save/load API
+│   ├── test.js             # Headless automated unit test suite
+│   ├── package.json        # NPM project definition
+│   └── public/             # Static web assets & client scripts
+│       ├── index.html      # Retro canvas viewport & HUD layout
+│       ├── css/style.css   # CRT scanlines & bamboo border styling
+│       ├── js/             # Audio, graphics, maps, combat, magic, divination engines
+│       └── assets/         # 64x64 MTX maps, 31 chiptune tracks, sprites, manual
 ├── .private/               # Architecture & repository memory (git-ignored)
 ├── .gitignore              # Git ignore definitions
 └── README.md               # Repository overview & manual

@@ -1,0 +1,819 @@
+The Moebius Docs
+extracted from SEWER DOCS format by Underdogs - Home of the Underdogs - 
+http://underdogs.cjb.net
+ 
+ MOEBIUS COMMANDS
+ 
+ TO BEGIN PLAYING MOEBIUS
+ 
+Place  Disk  A  in  drive and turn on power. Press any key  or  click  mouse
+button  to  exit  demo mode. At prompt insert Disk B into drive and  press  a
+key.
+
+ From  Book of Moebius menu, press "A" to Add Disciple.
+Name disciple by typing in name. Press "T" to Train disciple. 
+
+ NOTE: Disciples must  be  trained  in Sword Fighting, Hand to Hand Fighting,
+and  Divination,  i.e.,  they  must be successful  in  one  session  of  each
+type,   before  an  Adventure  may  be started.  Once  a  disciple  has  been
+trained,  you   may Begin an Adventure by pressing "B" at the Book of Moebius
+menu.
+
+  A  copy  of  Disk  B,  the  Book  of Moebius, can be made to save disciples
+for archival purposes or to permit the playing  of  separate  games.   Please
+refer  to your Atari-ST owner's Manual for the correct copy procedure.
+ 
+ COMMAND SUMMARY
+ 
+ As  you  move  about  the  realms  of Moebius,  you  will see that there are
+two  ways to control  your  disciple's movement.
+
+ 1.  Use  one of the two sets of eight movement   keys   indicated   in   the
+section: MOVEMENT.
+ 
+ 2. Using the mouse, click directly on the play window to move your  disciple
+in  the  direction  indicated  by  the cursor arrow.
+
+NOTE:  All menu options in Moebius may be  selected  by  pressing  the  first
+letter  of  the  desired command or by clicking   with  the  mouse  upon  the
+appropriate icon.
+ 
+B - Bare Hands. Put sword away.
+ 
+C - Communicate with character.  Press appropriate initial letter when 
+    Communication Menu appears.
+
+D  -  Open or close door. Use movement keys to indicate direction to door.
+
+E - Equip with sword, i.e., hold sword at ready.
+
+F - Cast Fireball. Available  only  in shrines.  Use  movement keys to choose
+    direction when indicated.
+ 
+G - Get item or fresh water.
+ 
+H - Hit  with  hammer  if  one  has  a hammer.
+
+L  -  Listen.   Disciple's   effective Listening  radius  will  improve  with
+level increase.
+ 
+M - Magic. Choose appropriate  initial letter when Magic Menu appears.
+
+*NOTE:  "Utter  Prayer"   requires   a period  of  fasting after which "Utter
+Prayer"  must  be  selected  again  in order to activate a prayer. "Stop All"
+will end all magic in use at the time.
+ 
+Q  -  Quit  &  Save  game.  Up to four Adventures may be saved. The  Book  of
+Moebius  will be automatically updated during   this  time  and  when  moving
+between realms.
+ 
+R - Restore at last saved position.
+ 
+S - Swing sword; to cut vegetation  or attack    adjacent    character.   Use
+movement keys to choose direction when indicated.
+
+T   -   Throw  shuriken,  if  one  has shurikens. Use movement keys to choose
+direction when indicated. NOTE: If  an opponent  is  right next to you,  your
+shurikens will not be very effective.
+
+U - Use item in Inventory.  Will  turn torch on/off, if torch is chosen. When
+Inventory  Menu  appears,  press   the appropriate  initial  letter to choose
+item.
+  
+V - View Maps. At Map menu, press  the appropriate  initial letter of the map
+to be  viewed.  Pressing  "ESC"  again will return to game play.
+When  viewing  the Memory Map, use the movement keys to scroll the map.
+
+1-9  -  Set  Game  and  Combat  Speed. Slowest to Fastest. Use number keys
+across top of keyboard.
+
+ESC - Pause Game. Pressing "ESC" again will  display  Options  and  Character
+Status during  Adventure.  "ESC"  also exits  all  menus  (Use, Magic, etc.,)
+and will cancel  most  of  the  adventuring    commands   (Throw,    Swing,
+Fireball, etc.,)
+  
+ COMBAT
+  
+During   combat,   there  are  several methods you can use to defeat your 
+enemies:
+  
+ 1. Use the  movement  keys  that  are indicated on this reference card under
+Combat, Sword and Karate.
+ 
+ 2.  Use  the  mouse  directly on your disciple to move and strike.  If  your
+disciple is equipped with a sword then a  sword  icon  will  appear.  If your
+disciple is bare-handed then a foot or hand  icon  will  appear  for  you  to
+strike with.
+ 
+ 3.  There  is a set of icons directly below the combat screen  that  can  be
+clicked    upon   for   movement   and striking.
+
+ A glowing sword to the left  of  your stats  indicates  that you are using a
+blessed sword.
+ 
+ Movement Combat
+  
+    (I)  (O) (P) 
+	\   !   /
+    (K)- (;) (4) 
+	/   !   \
+    (,) (.)  (/) 
+
+  COMBAT
+ 
+  Long strike left A
+
+  Long stride right S
+
+  Short step left Z
+
+  Short step right X
+
+-- Sword
+ 
+Short upper swing I or 7 
+Long upper swing O or 8
+
+Short middle swing K or 4 
+Long middle swing L or 5
+
+Short lower swing , or 1 
+Long lower swing . or 2
+
+-- Karate
+ 
+High Kick I or 7 
+High Punch O or 8
+
+Middle Kick K or 4 
+Middle Punch L or 5
+
+Low Kick , or 1 
+Low Punch . or 2
+ 
+NOTE: To "Block" with a sword or  bare hands, press the SPACEBAR.
+
+RETURN - Break and Run during Combat. Does not work in Training. 
+
+NOTE: The probability of successfully breaking  and  running  from  a combat
+decreases with lowered Dexterity.
+ 
+ DESCRIPTION OF ICON: Function
+  
+ - Disciple:  Toggle  Between  Equip Sword/Bare Hands.
+ - Disk:  Preferences/Ways of Play. * (See below)
+ - Question Mark: Options/Commands.
+ - Pouch: Use Pouch Contents.
+ - Mystic Square: Magic.
+ - Eye: View Maps/Lenses.
+ - Head with sound waves: Listen.
+ - Disciple and peasant: Communicate.
+ - Hand: Get (Chest/Vials/Water).
+ - Door: Open/Close door.
+ - Sword: Swing   sword.   Will   only appear  if  you  are  equipped  with a
+	  sword.
+ - Hammer: Hit with hammer. Will  only appear  if  you  have  one   in   your
+	   possession.
+ - Shuriken: Throw Shuriken. Will only appear  if  you  have  some  in   your
+	     possession.
+ -  Fireball:  Cast   Fireball.   Only available  when you become eligible to
+	       use them.
+  
+ * Special Note: When Preferences/Ways of play is selected  by  choosing  the
+   disk  icon,  a menu with the following options will appear.
+
+ Auto chop: Toggles a  mode  in  which you  automatically swing your sword at
+ 	    vegetation as you try to move onto it.
+ Pace: Another way to adjust speed  of play.
+ Show  mouse:  Toggles between visible and invisible mouse pointer.
+ Full sound:  Plays  music  throughout the game.
+ Mid  sound:  Plays music at important events.
+ Basic sound: Sound effects  only,  no music.
+ No sound: Silent 
+ Restore:  Restores  your  game to the last save.
+ 
+ THE BOOK OF MOEBIUS
+  
+ THE HEADMASTER
+ 
+ He  who  does  not  understand  words cannot understand people.
+							 (Confucius)
+  
+ The Headmaster speaks:
+
+  Twas in the Year of the Yak that the disciple  Kaimen  abandoned  the   one
+true  path  of  Moebius the Windwalker and   stole   the   Orb  of  Celestial
+Harmony. 
+
+ The ensuing nine months have  brought devastation and ruin to Khantun, death
+and  suffering  to  our  people. It is said that Kaimen was the  favorite  of
+the  favored,  and for this reason the Windwalker   failed   to  take  action
+against him until  the  Evil  One  had fled  beyond the reach of even Moebius
+himself.   Without   the   Orb,    the Windwalker  must stay on his plane and
+cannot  pursue  his  former  disciple, for  the  Orb aids him in ignoring the
+mystic    boundaries    between    the elemental realms. The Orb, it is said,
+holds  in    check   the   forces   of dissolution  that  are inherent to our
+land. Now that it   resides  somewhere in  the four material planes of Earth,
+Water, Air, and  Fire, we are  plagued by  unseasonable  rains  and droughts,
+while the ground  quakes in anguish.
+ 
+ The self-styled Warlord of  the  East Wind fled along the four-fold path and
+has  set  up his base of operations in the Realm of Fire. Our bravest  youths
+have  sought  him in the other planes, to no avail - and none  have  survived
+long  enough  to  reach  the  Realm of Fire. He has imprisoned the Holy  Ones
+who keep the shrines of Moebius on the four  planes,  installing his own evil
+Monks in their stead.  Those who  have dared  to oppose him have  died on his
+crosses of bamboo, while the  rest  of our  people  are  oppressed   by   his
+armies  of  rebel guards and hordes of dread assassins.
+
+ Our beloved Khantun groans under  the burden  of  the tyrant's horrors.  The
+rains have increased tenfold  and  the land  is buried beneath ever- increas-
+ing forests. The very  Earth  trembles and  shakes  as his legions tread upon
+it. Savage  tigers  have  smelled  the carnage  and left their hills  to come
+prey upon our people as they  toil  in the  fields  and forests.  Our  rivers
+and  streams  are  infested  by  giant water  beetles, with mandibles capable
+of rending the staunchest warrior from limb to limb. The dreaded forest demon
+has returned to plague all who  travel the land at night. 
+ Surely the long foretold Age of Doom is upon us!
+
+ Khantun  has  not  maintained an army for   ten   generations.   Since   the
+Windwalker showed our people the  path of  peace  there has been no need. Now
+we are  woefully  unprepared  and  the people fall to the Warlord as grain to
+the  reaper's  scythe. Our people will help you, but they  are  wary  of  the
+Warlord's  informers  who  increase in numbers   as  maggots  increase  on  a
+carcass. Only the monks loyal  to  the one  true faith are fearless, and they
+deal with none but the pure of  heart. They  are  old men and cannot stand up
+to the vile dregs  of  the  land  that serve  the  Evil One. So it is left to
+you, my child. The ancient  prophecies foretell  of one of our people serving
+the Windwalker in his  time  of  need. That time is upon us.
+
+ Go  now,  visit with your Instructors that they may  prepare  you  for  your
+journey, and tell you what is known of the path that lies ahead. May you  too
+walk the path of wind and sun, bravely to the very stairs of the House of the
+Windwalker;  may  you  take  the  seat reserved for He who has travelled  the
+four-fold  path  and  lived to see the Evil One stripped of  the  power  that
+saps  the  very  life's  blood  of our Khantun!
+  
+ THE SWORD MASTER
+ 
+ The mechanic that would  perfect  his work must first sharpen his tools. 
+								 (Confucius)
+  
+ Taito the Sword Master speaks:
+ 
+ So,  the  Windwalker  has chosen you? Well, they say his wisdom is surpassed
+by none - who am  I  to  question  his view? Let's get on with it.
+ Your  sword  is  a  tool.  Tools  are glorified   by  poets  and  broken  by
+fools. 'Tis best to respect your sword and use it with calm. There  are   six
+ways  to  strike  your  opponent,  two styles   of   pacing,  and  a  single,
+universal way of protection. They are:
+ 
+ 
+ (I) 		Short Swing to the Head
+ (K) 		Short Swing to the Center
+ (,) 		Short Swing to the Legs
+ (O) 		Long Swing to the Head
+ (L) 		Long Swing to the Center
+ (.) 		Long Swing to the legs
+ (S) and (A) 	Long strides forward  and back
+ (X) and (Z) 	Short steps forward and back
+ (SPACE) 	Block Opponent
+ 
+ The short swings are  easier  to  use and  constitute  the  tools   of   the
+worker.  A  flurry of such strokes can hold an opponent at bay, draining  the
+lifeblood  in   droplets.   The   long strokes  are  finesse moves, harder to
+land  but much more effective. 
+
+ Most of the sword-wielding minions of Kaimen   the  Warlord,  who  serve  as
+guards to his Overlords,  are  aggressive  fools  who  will try to bludgeon
+you to death. The Evil  One  recruited them from taverns and gutters. The are
+cowardly  at heart and usually seek to dominate by rushing at an opponent and
+exhausting themselves with a  plethora of  strokes  designed  to  beat  their
+victims into submission.  These  dregs of humanity often prefer to stun their
+victims,  rob  them  of some or all of their possessions, and  then  flee  as
+far  as  possible  to enjoy their ill-gotten booty. The only recourse is  to
+track them down and slay  them.   They will  invariably do battle the  second
+time they are encountered.
+  
+ During battle, the path to success is to watch your  opponent's  feet,   not
+his  eyes.  The  swordfighter  must be centered, and that cannot be  achieved
+while   mingling   consciousness  with one's opponent. You must learn  to aim
+for places and allow your opponent  to move  into your blows, for if  you aim
+directly at him he  will  move  before your sword has found its mark. 
+ This  is  the  key  to the use of the long strokes.
+
+  When  you  enter  a  battle, strike fearlessly  to  the  center   of   the
+battleground  - this permits strategic retreat and the  choice  of  position.
+If  your opponent drives you back to a wall, push him back  with  your  body.
+No  one  can land a blow at very close quarters. A quick rush and then a leap
+backwards can gain time to catch one's breath and renew a fight  with  vigor.
+The  Palace Guards do not always fight in the traditional manner  of  swords
+men.   Beware   their   technique   of partially  blocking  a  swing and then
+quickly   thrusting   at   one's  mid section. It is a cowardly move and not
+used  by true swordsmen.
+ 
+ When  you  are  exhausted  and  hard-pressed  by  an opponent, you can rest
+by blocking his swings. Know that  the block is almost always effective,  and
+should be relied upon when one is near to  death,  even  when   fighting   an
+assassin  who  uses no weapon save the hands and feet.  But,  when  facing  a
+renegade  monk who abuses his staff of power,   the   block   can  fail  with
+alarming frequency.
+  
+ In a very  desperate  situation,  you can flee by:
+
+ (RETURN) Break and Run. 
+ 
+ But  you shall pay for this cowardice by suffering a blot  on  your   Karma.
+The  Zen Master shall explain the ways of Karma to you before you  leave  the
+hallowed    House   of   Moebius   the Windwalker. Also beware of  attempting
+to flee if your Dexterity is  weakened as  you  may  stumble and  fall before
+your opponent and be exposed to  grave danger.
+
+ Your  sword  has  uses   other   than combat. It is, verily, an extension of
+your  arms  and  can  aid  you in your travels. When surrounded by vegetation
+you   may:   (S)wing   and  chop  down grasses,   bamboo,  or  the  evergreen
+trees  that grow throughout the  first three  of  the  fourfold   realms   of
+Khantun. 
+
+ Such  use of your sword will dull its blade according to the severity of the
+object you chop down. Thus, the use of whetstones to keep your blade sharp is
+imperative. A  dull  blade  in  battle permits  you  only  to  bludgeon  your
+opponents and makes the slaying of  an evil   one   extremely   tedious   and
+difficult.
+  
+ The sword can also protect you against the myriad beasts of Khantun.  
+The  Tiger  and  Water  Beetle  strike quickly and will wound  the  traveller
+not   equipped  with  a  sword. If you have your sword  ready,  however,  you
+can   usually  fend  off such attacks. You may also (S)wing your sword at the
+previously mentioned beasts and at the nesting Condor with some effect. 
+  The   people  of  Khantun  have  not wielded swords in  several  centuries.
+Their  religion  forbids  the  use  of edged   weapons  and  they  fear  them
+greatly.    Should   you   approach  a citizen with your sword held  in  your
+hand,  then will  not speak to you and may very well summon  the  guards.  To
+them,  all  those  who bear swords are equal.
+
+ Finally, abuse of your sword -  using it  to chop down vegetation when  your
+Dexterity is low,  or  striking  rocks with  it,  can  lead  to  your   blade
+shattering  in  your  hands.  You only recourse in such circumstances  is  to
+defeat  a  palace guard with your bare hands and take his sword.
+
+ That is all I can teach you  concerning  the use of swords, my child.  The
+rest is up  to  you.  Go  now  to  the Training  Arena  and  learn to use the
+blade in mortal combat.  And  may  the Moebius  the  Windwalker  watch   your
+every step.
+  
+ THE MARTIAL ARTS MASTER 
+ 
+ To lead into battle a people that has not first been instructed is to betray
+them. 
+							 (Confucius)
+  
+ Tuan  Chi  the  Martial  Arts  Master speaks:
+
+ Hai! Another disciple comes to  learn the ways of the hands and feet.  Good,
+good!  Let  us  explore  the only true path to martial success, the  use   of
+no  weapons  other than those that are part   of   nature's   equipment.  Let
+blades of  metal  serve  to  part  the flesh  of  trees but sully them not on
+the   flesh  of  man.  Deal  bloodless death  as  is befitting the highest of
+all  creatures. Pay no heed  to  Taito the  Swordmaster, for he is naught but
+an  elevated carpenter who would  slay with  hammer  and  nails   given   the
+chance... 
+ 
+
+ I  shall  teach you half a dozen ways to deal  death  with  your  hands  and
+feet.  I  shall  teach you how to move with the grace of a panther.  I  shall
+teach  you  to  render your opponent's blows   harmless   as   the  rain  the
+Windwalker sent to nurture our  crops before  the  Evil  One made the rain a
+thing to be feared. I shall  give  you the  key  to crush the evil Kaimen and
+all of his underlings.  But  you  must pay  heed,  for the sword cuts deep he
+who knows not to divert its path,  and the  clumsy  assassins  can kick a man
+to death as readily as  can  a  horse. There  is  great  danger  in  troubled
+Khantun and swift death to he  who  is not  centered. Let me show you the six
+blows...they are:
+  
+(I) High Kick
+(O) High Punch
+(K) Middle Kick 
+(L) Middle Punch
+(,) Low Kick 
+(.) Low Punch
+  
+ Blows aimed at  the  opponent's  head yield  the  greatest  results, but are
+the hardest to land. The middle  blows stagger your opponent and keep him  at
+arm's  length. Blows aimed at the legs are  the  most  demoralizing  to  male
+opponents  and  can  cause   them   to stumble and fall to their knees. Each 
+fighter must search for the style that suits  him  best. My own preference is
+to use  the  low  and  high  kicks  in combination against a weapon-wielding 
+opponent,  while  reserving  the   low punch for the ill-trained assassins of
+Kaimen the Evil One. But then I am not so  tall as you and have developed  by
+style   in  accord  with  my  physical endowments.   Graceful   movement  and
+blocking is accomplished by:
+  
+ (S) Long stride forward
+ (A) Long stride backward
+ (X) Short step forward
+ (Z) Short step backward
+ (SPACE) Block
+  
+  The  block  is  particularly  useful against  an  assassin, less so against
+others, although still  quite  effective.  Beware  the  flying  kick of the
+assassins, for they  often  feel  they must  mimic  the  lowly  frog and thus
+leap  frequently, severing their  link with  the  very  Earth that gives them
+strength.  Learn  to  use  the  short, gliding  step  to  position   yourself
+well.   And,   above   all,   be   not mesmerized  by  your  opponent's eyes;
+focus your   attention  on  his  move ments,  not his person, for the battle
+is won by you,  not lost by him.
+  
+ Go now and train in  the  Arena  that you may become proficient at the  only
+true  form  of  combat.  And  then pay special heed to the words of  the  Zen
+Master,  that  you  may   more   fully understand your own true nature. Hai!
+  
+ THE ZEN MASTER
+ 
+ He  that will not economize will have to agonize.
+					 (Confucius)
+  
+ Yan Chun the Zen Master speaks:
+
+ So Disciple, you prepare to leave the House   of   Moebius   and  tread  the
+fourfold path in pursuit of Kaimen the Evil One? It is well that you do   so,
+for he is a great danger to Khantun as well as to himself.  Remember  that he
+once  was a disciple of the Windwalker as are you, and that  he   shares  the
+knowledge  that you possess. Treat him not lightly,  nor  take   lightly  his
+minions. Above all, never let yourself be  swept  up  in the  excitement of a
+single moment.  Ultimate victory  will go  to  the  one  who    never   loses
+presence  of  mind and who thinks when confronted with difficult  situations.
+The key to final victory is to  remain centered at all times.
+
+ Contemplate  your  very nature first. You are composed of four  attributes:
+
+ Body - This  attribute  governs  your mortality.  Should  your Body fade  to
+nothing, you will die. Each  blow  you take  in  combat,   each   period   of
+fasting  you undertake, and every time a  beast  wounds  you,  your  Body  is
+diminished. It will return to its full potential  with time. When Moebius the
+Windwalker   chooses  to  praise  your worthiness and grant you a  title  and
+a  haiku,  your  Body will increase in strength and potential.
+
+ Mind -  This  attribute  governs  you mental prowess and capabilities. 
+ Your  Mind  will  enable  you to call upon the  mystic  arts  of  charm  and
+prayer    usage   to   confound   your enemies.  As  you  wield mystic power,
+your   Mind   shall  diminish  as  you maintain   the  focus  needed  to  use
+magic. It will return with time.  When Moebius  the  Windwalker  praises your
+worthiness,   then   will   your  Mind increase in scope.
+
+ Karma - This attribute grows with you and is relative to your deeds. 
+ You may monitor it by  envisioning  a zen  symbol.  If you flee from battle,
+suffer an innocent to die, frighten an innocent with your sword,  or  perform
+any  deed  not  befitting  the path of true honor, the symbol will  begin  to
+split apart. If your Karma is not pure and  the  symbol  is divided, then
+villagers  and monks will shun you and the use of magic will be difficult. 
+ You may redeem your Karma by feats of bravery or by  being  blessed  with  a
+visit  from the Windwalker himself. In time your Karma will mend as well.
+
+  Dexterity   -   This   attribute  is relative as is your Karma. It  may  be
+visualized  as  a  pair  of wings that separate when you  fall  victim  to  a
+thieving  Palace  Guard, or a beast of the wilderness, or when you are struck
+by   an  Assassin's  shuriken  or  the fireball of an Evil Monk. If your 
+ Dexterity is damaged, you  will  have problems  opening  and closing (D)oors
+or  (G)etting chests, as  well  as  in climbing   the   staircases   of   the
+Overlord's    palaces.   Remember,   a closed  door  can be a useful strategy
+when seeking to  prevent the escape of a thieving guard. You may redeem  your
+Dexterity  in   feats  of valor and in successful   attempts   at   (G)etting
+chests. A  visit   from  Moebius  will also  help your Dexterity, as will the
+passage of time.
+  
+ As you begin your travels you will be equipped   with   a   Sword,   a  full
+waterskin containing  the  traditional 100  sips,  a  food   pouch   of   100
+mouthfuls, a torch, a whetstone, three Body Elixirs, and three shurikens. 
+ As  these  are consumed you will have to find more to replenish your supply.
+Villagers, young  Village  Girls,  and aged  Monks  will  offer  you  some of
+these  (save water, which  has  become too  precious  to  part  with)  if you
+appear  honorable and unarmed when you seek to communicate with them. Do  not
+confront  our  people  with your sword drawn as they are long unaccustomed to
+seeing weapons and will be  frightened and perhaps cry out for aid from the 
+very  ones  who oppress them. Further more you will find hammers with  which
+to  smash rocks and shovels with which to obtain soil  samples,  as  well  as
+some objects of a more mystical nature which we shall deal with shortly.
+
+ You  may  (S)wing  your sword to chop vegetation or attack a nearby beast or
+opponent.
+ 
+ You may  (H)ammer  rocks  that  block your path.
+
+ You  may  (U)se  (T)orch  at night to light your way.
+
+ You may (U)se (W)hetstone to  sharpen your sword after cutting brush.
+
+ You  may  (U)se  (S)hovel to obtain a soil sample.
+
+ You may (G)et water if you are  at  a cistern  or  near a source of drinking
+water. The water  in  the  rivers  and streams  has  been  rendered unfit for
+consumption.
+ 
+ Should you  be  fortunate  enough  to find  Elixirs  or to gain them through
+the defeat of an Evil Monk:
+  
+  You   may  (U)se  (B)ody  Elixir  to restore your Body; or  You  may  (U)se
+(M)ind  Elixir  to  restore  your Mind faculties.
+
+ During your  travels  you  will  most certainly  encounter villagers of both
+sexes. Approached properly  they  will aid you. To talk to them: 
+
+You may (C)ommunicate with them. Once  you  have initiated conversation
+you must be brief as time is  precious in these troubled days:
+ 
+ Ask them to (H)elp and they will give you resources and even advice;
+
+ Ask them to  (F)ollow  Me,  and  they will  do  so  as long as your Karma is
+pure;
+ 
+ Ask them to (S)tay Here and they will await the pure disciple;
+
+ Ask them to (G)o Away and they  shall do so.
+
+ If  your Karma is not pure, then they may pay you no heed.  Their   willing
+ness  to  communicate  and  obey  your suggestions   is   governed   by  your
+purity. So do  no  evil,  protect  the innocent, and behave not in a cowardly
+manner.
+  
+ Should  you  wish to carry your sword at ready to hold  the  beasts  of  the
+wild at bay:
+  
+ You  may  (E)quip  yourself with your sword.
+ (B)are hands will replace your  sword amongst  your belongings and leave you
+open-handed to deal with our people.
+ 
+ At any time that you encounter a door you   may  endeavor  to  open  it  and
+explore within by (D)oor opening.  The same  action  serves to close a (D)oor
+as well. Many dwellings house  minions of the evil Kaimen, while others  hold
+villagers who will help you in moments of need.
+    
+ Throughout the Realms of Earth, Water, and  Air  there  are magical  cisterns
+where   one   can   obtain   water  as previously   described.  The  cisterns
+also  have  certain  mystical  proper ties.  If  you meditate at the foot of
+the  idols found within the  cisterns, your Body and Mind will be restored to
+their  full  potential. The Windwalker takes  care  of  his  people  in  many
+ways. 
+ 
+ Finally,  I  have  given  you   three shurikens  as   a   means   of   self-
+protection.  They are one of the tools of the assassins employed by the  Evil
+One, but they do have some merits  and are  being  adopted  by   those   that
+follow  the Windwalker. There is still some  debate  to  their  enhancing  of
+one's  worthiness,  but  they  do earn some respect in the eyes of Moebius. 
+ You may (T)hrow the  shuriken  at  an adversary  approaching from any of the
+eight movement  directions.  Sometimes they  will  be  fatal,  sometimes they
+will but wound or entirely  miss  your opponent.  They  are  less   effective
+when used against assassins, for these evil  killers  are  trained   in   the
+avoidance  of  missiles  and are quite nimble at times.
+
+ And now my child, let us  delve  into the mystic side of matters. there  are
+items  in the world that contain great power, as indeed do you yourself. 
+  All mystic force - be  it  spiritual as  is Prayer, or based on the mundane
+as  are maps, lenses and charms  -  is both  controllable  and  finite. There
+are  three disciplines of  magic,  two major and one minor. 
+ The  minor  form is the use of mystic (F)ireballs. They may only be  used in
+the   shrines  of  Moebius  where  the spiritual power  that  fuels  them  is
+ever-present.  Thus  when you endeavor to cleanse a shrine and slay the Evil 
+Monk within, you may attack  him  with (F)ireball  or with your bare hands in
+martial arts combat.  The  Evil  Monk, however,  draws  power  from  the evil
+that permeates his very being and  may attack  with  fireballs  outside  of a
+shrine.  Beware  the  touch  of  these fireballs,  for   they   bathe   their
+victims  in   evil   and   cause   all blessings  to  dissolve.  Note as well
+that the Evil  Monks abhor swords  and will  cause them to vanish if they see
+them, so do not attempt to engage such a  person  whilst  wielding  a  sword!
+During  shrine  combat,  the Evil Monk may also cast the spell of  Inhibition
+at you. This  enchantment  saps the will and renders one powerless to move.  
+Yet  you  must struggle  against it in order to break its hold.  Thus,  the  
+only  means  to overcome  the  lack of movements is to strive to  move  until  
+your  superior will overcomes the spell.
+
+ The  monks that once kept the shrines of Moebius the Windwalker and who  now
+languish  in  the  prisons of the Evil One and his Overlords, hold the   keys
+to  the  two  major  mystic arts.  You must   rescue   these   sufferers  and
+install   them  in  their  shrines  to restore Khantun to its  former  state.
+Each  time  you  do so, the monks will open the doors to the realms of mystic
+power  for you.
+  
+ When you  liberate  a  captive  monk, (C)ommunicate  to  him  that  you wish
+him to  (H)elp.  He  will  bless  your belongings  and offer to share what he
+has with you. He may also teach you  a prayer.  Thenceforth you will be  able
+to use (M)agic by  (U)ttering  Prayer. To  successfully  pray  you must first
+undertake a fast of 7 Body  points  in the  Earth  Realm,  and  5  additional
+points for each succeeding Realm, then repeat   the  (M)agic  (U)tterance  of
+Prayer. To maintain the effects of the prayer  you  must   continue  fasting.
+When  you  wish  to  fully return your spirit to the present world,  use  the
+(M)agical  command  of (S)top Magic to end your fast.
+
+ Each prayer is uttered by chanting  a mantra,  and  each  monk  will  give a
+special mantra to a disciple for  each prayer.  Thus,  you  may   only   gain
+prayer  by liberating monks. The known effects of Prayers are:
+  
+ Speak with the Dead  -  This  enables you to gain wisdom from the  crucified
+remains of victims of the Warlord that you    will    encounter    throughout
+Khantun.
+ 
+ Protection - This prayer removes your enemies from your presence.
+ Waterwalk - This enables you to  read the surface of the rivers and  streams
+and avoid their treacherous currents.
+ 
+ Cure  Sickness  - This will alleviate the sickness brought on by  a   beast-
+or demon-inflicted wound.
+ 
+ Guiding  Light  - This provides light in place of  or  in  conjunction  with
+the  light  shed by (U)sing a (T)orch. It is divine light and is not  subject
+to winds or rain.
+   
+ Your  Mind  must  be  of   sufficient strength  to  activate  a  prayer, and
+will immediately drop  to  its  utmost minimum upon successful utterance. 
+ (U)se  of  Mind  Elixirs will restore your Mind quickly when  it  is  imper
+ative  to  do so. The mental strain of prayer precludes the  use  of  magical
+charms   at  the same time that one is filled with the spirit of holiness.
+ 
+ The final major mystic art is the use of  charms. These charms are  given to
+the disciple that installs a monk in a shrine  of  Moebius  the   Windwalker.
+Even  the  monks  do  not   know   the properties  of  the charms they guard.
+You must use (M)agic force to (D)ivine the true nature of the  artifact.  You
+must  learn the art of (D)ivination in the Training  Arena  before  you  ever
+leave  the  House of Moebius. Remember that  the  key  to    (D)ivination  is
+calmness  and  fully  centered concentration. You will meditate  on  a  box
+containing  a zen symbol which strives to escape its confines. You must  keep
+the  zen  symbol within the box by use of the same  techniques  as  used  for
+movement.  The  symbol  will grow more frantic in its attempts to  break  its
+bonds until a state of illumination is attained.
+
+ Once you have (D)ivined the nature of an artifact you must make sure that it
+has been blessed by a monk of Moebius. All  charms  will be blessed  when you
+first receive them,  but  suffering  a blow  from a Fireball of an  Evil Monk
+will   render  all  current  blessings null.   You   may   then   (M)agically
+(I)nvoke its powers by expending  Mind energy  to  activate  the  charm.  The
+charm will continue to act as long  as you  are  providing  Mind  energy, but
+when you  are  mentally  exhausted  it will  shut  off.  You may also use the
+(M)agic command (S)top  Magic  to  end the use of a charm.
+
+ The charms known to exist are:
+ 
+ Ventriloquism  -  This   will   cause everyone in your vicinity to think you
+are  elsewhere;  however,  should  you physically   encounter  someone,  your
+presence shall be known immediately.
+ 
+ Paralysis - This will cause  everyone in  your vicinity to freeze. You  will
+be able to  touch  them,  but  not  to engage  them  in  conversation  or  in
+combat.
+ 
+ Teleport - This will  carry  you  and anyone  in  contact  with  you  to the
+last spot at which you obtained a soil sample.
+ Invisibility - This will  render  you invisible  to  all  around  you unless
+you pass so close to  them  that  they sense your presence.
+ Spirit  -  this charm will enable you to pass through any solid object.   It
+does  not  bestow the power of flight, however, and you  should  not  venture
+near  the  edge of the world in any of the fourfold realms lest you plunge to
+your death!
+ 
+ Were-Spell - This charm  permits  one to  assume  the  form  of  the  native
+beasts in a particular  realm.  It  is special  and may only be obtained from
+the Minstrel. the Minstrel is a  Night Demon  who,  as dawn approaches, turns
+for an instant into  a  benign  being. If  you  capture  him at the moment of
+his transformation,  and  if  you  are wearing  the  proper  Amulet,  he will
+give   you   this   charm.  Otherwise, encountering a Minstrel will still  be
+a  rewarding experience.
+ 
+ Charms  require  one other component. This is a material component  and   it
+can  be obtained in various ways.  One such component is simply soil from the
+spot you wish to  revisit;  while  the others are parts of the beats of 
+the  land.  The  components  for  each charm are:
+
+ Ventriloquism - Tiger Teeth.
+ Paralysis - Beetle Pincers  from  the Water Beetle.
+ Teleport - Soil Samples obtained with a shovel.
+ Invisibility  - Fish scales which can be found at  an  astrologer's   obser-
+		 vatory.
+ Spirit  -  Panda  Hair,  obtained  by capturing   one   of   these   elusive
+	    creatures.
+ Were-Charm -  Condor  Feathers  found where the condor nests.
+ 
+ You  may  use  (M)agic   command   to (E)xamine  your stock of components at
+any   time.  Remember  that  the  only return   from  the  fourfold  path  is
+through  success in recovering the Orb of Celestial Harmony.  Once  you  have
+embarked   on this journey there is no turning back. So guard the  components
+you  find  as  you will not be able to replenish your supply  once  you  have
+left  the   realm in which they are to be found.
+
+ The realms of  Khantun  are  littered with  chests  and   vials.   You   may
+attempt  to  discover  the contents of the chests by  (G)etting  them.  Often
+you  will  find  mystical   maps   and lenses.  These devices will aid you in
+finding your way about the  land.  The maps  will  display  features  of  the
+realm as a  whole,  while  the  lenses display  features  of  a  smaller area
+with  much  greater  detail.  You  may (V)iew  any  of  these  once  you have
+found them.  The maps will not survive in the Realm of Fire, however, and you
+will have only the lenses to  rely  on there. At any time you may review your
+recent   movements  by  (V)iewing  the (M)emory map. This  map  shows  but  a
+small  portion  at  a  time and may be reviewed in its  parts  by  using  the
+movement   techniques to shift the map perspective.
+
+ The vials will usually contain either a Mind Elixir or a Body Elixir. 
+ These may be (U)sed to restore either your   Body   or  your  Mind  to  full
+capability in the event of fatigue.  
+
+ Go now and  speak  with  Moebius  the Windwalker  that  you  may  know   the
+history  and the nature of your quest. May you heed His and  His  call  as  I
+did  many years ago, for He is supreme in wisdom.
+
+ MOEBIUS THE WINDWALKER
+ 
+ There are shoots whose lot it  is  to spring up but never to flower;
+ others whose lot it is to flower, but never bear fruit.
+						 (Confucius)
+ 
+ Moebius the Windwalker speaks:
+  
+ Hail,  brave  one.  I  am Moebius the Windwalker. I, too, was once a   youth
+such  as yourself. I was a disciple of the Four Elementals  -  Earth,  Water,
+Air,  and  Fire  -  when they were the principal dieties of our people. 
+ I  was  the  first  to   travel   the fourfold path and to meet with each of
+the   Elementals.  In  those  days the world was young and Khantun was but  a
+collection  of  huts  on the shores of the  Great  Water.  In  my  travels  I
+learned  that  the Elementals were not truly beings as we  had  thought,  but
+states  of  mind  that  governed   the environment  of  each Realm. In truth,
+they  were but four spirits that  were capricious  and constantly at war with
+each  other. When I learned  of  their true  natures, I forged a crystal from
+the molten rock at the  heart  of  the volcano in the core of the Fire Realm,
+where  the  upstart Kaimen now dwells. In this crystal, I imprisoned each  of
+the  four  Elementals - the crystal is now known  as  the  Orb  of  Celestial
+Harmony.  I then established a pair of shrines in each of the fourfold Realms
+that Order might reign and our  people might  flourish. I paid a  great price
+for my deeds, but one must do what one is called to do,  whatever the  price.
+I now dwell here in the ether, with my corporeal  existence bound to the Orb,
+for  it  was  my very body that forged the Orb.  I  can no longer travel  the
+fourfold path except in spirit, for to do  so  would   loosen  the bonds that
+hold the Elementals captive and  allow our  world  to   exist  in  peace  and
+harmony.
+   
+ When the four Elementals become bound together   as   one   in  the  Orb  of
+Celestial Harmony, the fortold  of  an Age  of  Doom  - an age when the one I
+most trusted would rise against me and free   the   Elementals   from   their
+bondage.  They  also  prophesied  that only  a  human could defeat He who was
+to be their Liberator -  a  human  who possessed  a  human  body and only the
+supernatural powers that are  inherent to  our,  or  should I say, your race,
+for   I  have  left  my  earthly  body behind. I began this school, where you
+and  your fellows have  trained  these many  years,  in  hopes  that  I might
+foster  many who could  forestall  the Age  of Doom and smash the Usurper. My
+first    four   disciples   were   the Nameless One who serves as Headmaster,
+Taito the  Sword Master, Tuan chi  the Martial  Arts Master, and Yan Chun the
+Zen  Master. They are as human as  you and  your fellows, subject to the same
+jealousies   and  rivalries  that  all humans  endure.  Yet,  they  are  fine
+people.  Pay  no  heed  to  Yuan Chi's caustic   nature   toward  Taito,  but
+depend    on what he  teaches  of  his art - as you may depend on all of your
+teachers. 
+
+  Fear not their humanity, but embrace it  -  for it is the gift that permits
+all to war against  Evil.  One  cannot fight  an  enemy one does not know, so
+we must all hold a little of envy  and jealousy  that  we  may  recognize our
+true enemy and better ourselves.
+ 
+ So far, many  of  my  disciples  have tried  to  find and subdue Kaimen - He
+who once was my most prized disciple - but none have succeeded. It is with  a
+heavy heart that I watch you and  your brethren  set out on the quest for the
+Orb, for I know that  of  all  who  go only one shall survive, while the 
+others shall perish.
+  
+ Keep  in  your heart the true meaning of being a disciple. Discipline is the
+foundation upon which civilization  is built.  The  quality of being  discip
+lined   is   the   quality   of  being centered. To be centered is to be calm
+and contemplative. This is the key  to success in all your endeavors, be 
+they combative, mystical, or peaceful. Kaimen  is ambitious and mercurial  by
+nature -  this  is  his  weakness.  He could never achieve the true centering
+needed  for  ultimate power, for he is ruled by a fiery nature.  Make not the
+same mistake. Kaimen  is  indeed  very powerful,  no magic works  against his
+person,  and  he  wields  an  extraordinarily  powerful sword. To fight him
+I shall give you these gifts:
+  
+ You shall  begin  your  journey  with three  Resurrections.  If  you  should
+die, three times shall I call Death to me as he comes to collect  your  soul.
+Furthermore,  each time you rescue one of   my  monks  from  the  prisons  of
+Kaimen's Overlords and restore him  to his  rightful  place  in my shrines, I
+shall grant you another Resurrection.
+ 
+ Each time you liberate on of my monks and return him to his rightful   place
+in  my  shrines I shall empower him to give a special Blessing to your sword,
+that it may remain sharp for  as  long as  you  remain pure in your  actions.
+Should your Karma slip,  the  Blessing will  be  lost.  But  as  long  as the
+Blessing remains upon  your  sword  it will  smite your enemies with a  force
+equal to  that  wielded  by  the  evil Kaimen  himself. I cannot empower  you
+to carry this blessing from one  Realm to  the  next,  for  the  forces  that
+separate the Realms are  great  enough to  nullify  the  blessings  that  add
+power to your sword.
+  
+ Each time I feel you have shown  your worthiness I shall visit you and  give
+you  an  additional name and a song of power. You  Body  will  increase   and
+your  Mind  will  grow in scope.  When you have liberated both shrines in   a
+Realm,  I  shall  empower you to enter the Astral Gates  therein  and  travel
+along  the  fourfold  path   to   your destiny.  Should  you reach Kaimen and
+destroy Him, I shall return you to the House of Moebius where you  may  dwell
+in  peace and the pursuit of knowledge for the rest of your days, revered  by
+all the peoples of Khantun.
+  
+ Go  now  my child. Enter the Training Arena and  prove  your  worthiness  by
+successfully  training  in the disciplines of  Swords,  Martial  Arts,  and
+Divination. Once you have done so, you may embark upon your journey.
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moebius: The Orb of Celestial Harmony (1987 Retro Recreation)</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/sprites/karma_yinyang.png">
+</head>
+<body>
+  <div id="game-wrapper">
+    <!-- Top Header -->
+    <header id="game-header">
+      <div id="header-title">
+        <span>☯</span> MOEBIUS: THE ORB OF CELESTIAL HARMONY
+      </div>
+      <div id="header-stats">
+        <span>REALM: <strong id="stat-realm" style="color:#fff;">EARTH</strong></span>
+        <span>FOOD: <strong id="stat-food" style="color:#fff;">35</strong></span>
+        <span>WATER: <strong id="stat-water" style="color:#fff;">35</strong></span>
+        <span>TORCHES: <strong id="stat-torches" style="color:#fff;">5</strong></span>
+      </div>
+    </header>
+
+    <!-- Retro CRT Viewport -->
+    <main id="viewport-container">
+      <canvas id="gameCanvas" width="320" height="200"></canvas>
+      <div class="crt-overlay"></div>
+
+      <!-- Modals and Dialogue -->
+      <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+          <h2 id="modal-title" class="modal-title">HOUSE OF MOEBIUS</h2>
+          <div id="modal-body"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bottom HUD & Controls -->
+    <section id="hud-panel">
+      <!-- Vitals Gauges -->
+      <div class="vitals-box">
+        <div class="vital-row">
+          <span class="vital-label">BODY</span>
+          <div class="vital-bar-container"><div id="bar-body" class="vital-bar body" style="width: 100%;"></div></div>
+          <span id="val-body" class="vital-value">100/100</span>
+        </div>
+        <div class="vital-row">
+          <span class="vital-label">FATIGUE</span>
+          <div class="vital-bar-container"><div id="bar-fatigue" class="vital-bar fatigue" style="width: 100%;"></div></div>
+          <span id="val-fatigue" class="vital-value">100</span>
+        </div>
+        <div class="vital-row">
+          <span class="vital-label">MIND</span>
+          <div class="vital-bar-container"><div id="bar-mind" class="vital-bar mind" style="width: 80%;"></div></div>
+          <span id="val-mind" class="vital-value">80</span>
+        </div>
+        <div class="vital-row">
+          <span class="vital-label">KARMA</span>
+          <div class="vital-bar-container"><div id="bar-karma" class="vital-bar karma" style="width: 50%;"></div></div>
+          <span id="val-karma" class="vital-value">50</span>
+        </div>
+      </div>
+
+      <!-- Center Narration Display -->
+      <div id="message-box" class="message-display-box">
+        <div class="msg-line msg-tao">> Welcome to Moebius: The Orb of Celestial Harmony.</div>
+      </div>
+
+      <!-- Right Action Tray -->
+      <div class="action-tray">
+        <button id="btn-talk" class="retro-btn" title="Talk or Bow to adjacent NPC">TALK/BOW</button>
+        <button id="btn-prayer" class="retro-btn" title="Invoke Taoist fasting prayers">PRAYER [P]</button>
+        <button id="btn-charm" class="retro-btn" title="Cast component charms">CHARMS [C]</button>
+        <button id="btn-meditate" class="retro-btn" title="Enter Divination meditation">MEDITATE [M]</button>
+        <button id="btn-inventory" class="retro-btn" title="Open provisions and inventory">POUCH [I]</button>
+        <button id="btn-attack" class="retro-btn" title="Toggle sword or barehand stance">WEAPON [W]</button>
+        <button id="btn-rest" class="retro-btn" title="Rest body or drink from cistern">REST/DRINK</button>
+        <button id="btn-help" class="retro-btn gold" title="View instruction scroll">HELP [?]</button>
+      </div>
+    </section>
+
+    <!-- Footer Controls -->
+    <footer id="footer-bar">
+      <div>Origin Systems 1987 / Recreated for WSL & Modern Web</div>
+      <div class="footer-btn-group">
+        <button id="btn-toggle-crt" class="mini-btn">CRT SCANLINES</button>
+        <button id="btn-toggle-palette" class="mini-btn">PALETTE: C64/EGA</button>
+        <button id="btn-toggle-sound" class="mini-btn">AUDIO ON/OFF</button>
+        <button id="btn-save-game" class="mini-btn">SAVE</button>
+        <button id="btn-load-game" class="mini-btn">LOAD</button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Game Engine Modules -->
+  <script src="js/audio.js"></script>
+  <script src="js/graphics.js"></script>
+  <script src="js/maps.js"></script>
+  <script src="js/combat.js"></script>
+  <script src="js/divination.js"></script>
+  <script src="js/magic.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+</html>

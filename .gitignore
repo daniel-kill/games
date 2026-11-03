@@ -2,3 +2,5 @@
 .logs/
 *.log
 *.tmp
+node_modules/
+*moebius_save.json
