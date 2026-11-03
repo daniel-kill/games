@@ -22,6 +22,12 @@ class MoebiusAudio {
     this.sfxVol = 0.6;
     
     this.tempoScale = 0.00095; // Converted from original SLB timer units to seconds
+
+    // Authentic Commodore 64 SID Audio
+    this.sidPlayer = null;
+    this.sidEnabled = true;
+    this.isPlayingSID = false;
+    this.sidUrl = 'assets/c64_moebius.sid';
   }
 
   init() {
@@ -67,12 +73,68 @@ class MoebiusAudio {
     if (this.ctx && this.ctx.state === 'suspended') {
       this.ctx.resume();
     }
+    if (this.sidPlayer && this.sidPlayer.audioContext && this.sidPlayer.audioContext.state === 'suspended') {
+      this.sidPlayer.audioContext.resume();
+    }
+  }
+
+  initSID() {
+    if (this.sidPlayer) return;
+    try {
+      if (typeof jsSID !== 'undefined') {
+        this.sidPlayer = new jsSID(16384, 0.0005);
+        this.sidPlayer.setvolume(this.isMuted ? 0 : this.musicVol);
+      }
+    } catch (e) {
+      console.warn('Failed to initialize jsSID player:', e);
+    }
+  }
+
+  playSID(subtune = 0) {
+    if (!this.sidEnabled) return;
+    this.ensureContext();
+    this.stopSynthesizedMusic();
+    try {
+      this.initSID();
+      if (this.sidPlayer) {
+        this.sidPlayer.setvolume(this.isMuted ? 0 : this.musicVol);
+        this.sidPlayer.loadstart(this.sidUrl, subtune);
+        this.isPlayingSID = true;
+      } else {
+        this.playSynthesizedMusic(0, true);
+      }
+    } catch (e) {
+      console.warn('Error launching SID player, falling back to synthesized:', e);
+      this.playSynthesizedMusic(0, true);
+    }
+  }
+
+  stopSID() {
+    if (this.sidPlayer && this.isPlayingSID) {
+      try {
+        this.sidPlayer.pause();
+        this.isPlayingSID = false;
+      } catch (e) {}
+    }
+  }
+
+  toggleSID() {
+    this.sidEnabled = !this.sidEnabled;
+    if (!this.sidEnabled) {
+      this.stopSID();
+    } else {
+      this.playSID(0);
+    }
+    return this.sidEnabled;
   }
 
   setMute(muted) {
     this.isMuted = muted;
     if (this.masterGain && this.ctx) {
       this.masterGain.gain.setValueAtTime(this.isMuted ? 0 : this.masterVol, this.ctx.currentTime);
+    }
+    if (this.sidPlayer) {
+      this.sidPlayer.setvolume(this.isMuted ? 0 : this.musicVol);
     }
   }
 
@@ -82,6 +144,11 @@ class MoebiusAudio {
   }
 
   stopMusic() {
+    this.stopSID();
+    this.stopSynthesizedMusic();
+  }
+
+  stopSynthesizedMusic() {
     this.isPlayingMusic = false;
     if (this.musicTimeout) {
       clearTimeout(this.musicTimeout);
@@ -98,8 +165,18 @@ class MoebiusAudio {
 
   playMusic(trackIndex, loop = true) {
     this.ensureContext();
+    // Use authentic Commodore 64 SID for title and exploration music when available
+    if (this.sidEnabled && (trackIndex === 0 || trackIndex === 1) && typeof jsSID !== 'undefined') {
+      this.playSID(0);
+      return;
+    }
+    this.playSynthesizedMusic(trackIndex, loop);
+  }
+
+  playSynthesizedMusic(trackIndex, loop = true) {
+    this.ensureContext();
     if (!this.ctx || !this.musicTracks) return;
-    this.stopMusic();
+    this.stopSynthesizedMusic();
 
     let track = null;
     if (Array.isArray(this.musicTracks)) {

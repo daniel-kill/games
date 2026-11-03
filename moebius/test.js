@@ -168,6 +168,40 @@ runTest('Verify sprite asset presence', () => {
   });
 });
 
+// 8. Authentic Commodore 64 SID Audio & Player
+runTest('Verify authentic C64 SID music asset and jsSID player', () => {
+  const sidPath = path.join(__dirname, 'public/assets/c64_moebius.sid');
+  assert.ok(fs.existsSync(sidPath), 'c64_moebius.sid exists');
+
+  const buf = fs.readFileSync(sidPath);
+  assert.ok(buf.length >= 128, 'SID file has valid header size');
+  const magic = buf.subarray(0, 4).toString('ascii');
+  assert.strictEqual(magic, 'PSID', 'SID has valid PSID magic header');
+
+  const jsSidPath = path.join(__dirname, 'public/js/jsSID.js');
+  assert.ok(fs.existsSync(jsSidPath), 'jsSID.js emulator exists');
+  const jsSidContent = fs.readFileSync(jsSidPath, 'utf8');
+  assert.ok(jsSidContent.includes('jsSID'), 'jsSID engine defined');
+});
+
+// 9. Authentic C64 Screens & Decoded Sprites
+runTest('Verify authentic C64 screens and martial arts sprite frames', () => {
+  const screensDir = path.join(__dirname, 'public/assets/screens');
+  assert.ok(fs.existsSync(screensDir), 'screens directory exists');
+  assert.ok(fs.existsSync(path.join(screensDir, 'c64_title_dojo.png')), 'c64_title_dojo.png exists');
+  assert.ok(fs.existsSync(path.join(screensDir, 'c64_arena_earth.png')), 'c64_arena_earth.png exists');
+
+  const windwalkerDir = path.join(__dirname, 'public/assets/c64_sprites/windwalker');
+  assert.ok(fs.existsSync(windwalkerDir), 'windwalker c64 sprites directory exists');
+  const wwFrames = fs.readdirSync(windwalkerDir);
+  assert.ok(wwFrames.length >= 80, `Windwalker has 80+ authentic C64 animation frames (actual: ${wwFrames.length})`);
+
+  const monkDir = path.join(__dirname, 'public/assets/c64_sprites/monk');
+  assert.ok(fs.existsSync(monkDir), 'monk c64 sprites directory exists');
+  const monkFrames = fs.readdirSync(monkDir);
+  assert.ok(monkFrames.length >= 60, `Monk has 60+ authentic C64 animation frames (actual: ${monkFrames.length})`);
+});
+
 console.log('====================================================');
 console.log(` RESULTS: ${testsPassed} passed, ${testsFailed} failed`);
 console.log('====================================================');

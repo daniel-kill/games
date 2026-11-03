@@ -93,8 +93,8 @@ An authentic retro recreation of Origin Systems' iconic 1987 martial arts RPG cr
 - **Tactical Side-View Combat:** 1-on-1 martial arts and sword duels with 6 strike zones (High/Mid/Low Kick, Punch, or Swing), blocking, stride/step footwork, fatigue management, and shuriken throwing.
 - **Divination Minigame:** Keep the restless Yin-Yang spirit centered against cosmic winds using meditation to gain prophecy visions and boost Mind energy.
 - **Taoist Karma & Fasting Magic:** 5 Fasting prayers (Speak with Dead, Protection, Waterwalk, Cure Sickness, Guiding Light) and 6 component charms (Ventriloquism, Paralysis, Teleport, Invisibility, Spirit Walk, Were-Spell).
-- **Original Music & Sound Effects:** Synthesizes the 31 chiptune tracks extracted from `PCMUSIC.SLB` and authentic SID/PSG chiptune sound effects via Web Audio API.
-- **Retro Visual Engine:** 320x200 pixel resolution with CRT scanline toggles, C64 and DOS EGA color palettes, authentic bamboo borders, and extracted original character sprites.
+- **Original Music & Sound Effects:** Features authentic Commodore 64 SID 6581 sound chip music emulation (`jsSID` playing Joe Garrett's 1987 Origin Systems soundtrack `c64_moebius.sid`), plus synthesized 31 chiptune tracks from `PCMUSIC.SLB` and punch/kick/sword sound effects via Web Audio API.
+- **Retro Visual Engine & C64 Sprites:** 320x200 pixel canvas with authentic Commodore 64 martial arts animations (Windwalker stances, strikes, kicks, blocks, and sparring monk decoded directly from C64 disk images `M10.prg` and `M11.prg`), authentic C64 arena backdrops (`c64_title_dojo.png`, `c64_arena_earth.png`, `c64_arena_water.png`, `c64_arena_air.png`), CRT scanline toggles, and C64/EGA palette switches.
 - **Cross-Platform Launchers:** Launch in WSL via `./moebius.sh` or in PowerShell via `./moebius.ps1` (with `-SmokeTest` / `--test` automated verification).
 
 ---

@@ -97,6 +97,7 @@ class MoebiusEngine {
     // Footer Controls
     document.getElementById('btn-toggle-crt')?.addEventListener('click', () => this.toggleCRT());
     document.getElementById('btn-toggle-palette')?.addEventListener('click', () => this.togglePalette());
+    document.getElementById('btn-toggle-sid')?.addEventListener('click', () => this.toggleSID());
     document.getElementById('btn-toggle-sound')?.addEventListener('click', () => this.toggleSound());
     document.getElementById('btn-save-game')?.addEventListener('click', () => this.saveGame());
     document.getElementById('btn-load-game')?.addEventListener('click', () => this.loadGame());
@@ -531,6 +532,13 @@ class MoebiusEngine {
   togglePalette() {
     this.graphics.paletteMode = (this.graphics.paletteMode === 'C64') ? 'EGA' : 'C64';
     this.ui.addMessage(`Display Palette set to: ${this.graphics.paletteMode}`, 'msg-good');
+  }
+
+  toggleSID() {
+    const enabled = this.audio.toggleSID();
+    const btn = document.getElementById('btn-toggle-sid');
+    if (btn) btn.textContent = `SID MUSIC: ${enabled ? 'ON' : 'OFF'}`;
+    this.ui.addMessage(`Commodore 64 SID 6581 Audio: ${enabled ? 'ENABLED' : 'DISABLED'}`, 'msg-good');
   }
 
   toggleSound() {
